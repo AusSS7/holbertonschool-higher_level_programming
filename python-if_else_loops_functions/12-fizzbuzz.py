@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for a in range(1,101):  
+for a in range(1, 101):  
     if a % 3 == 0 and a % 5 == 0:
         print("FizzBuzz", end=' ')
     elif a % 3 == 0:
@@ -7,4 +7,4 @@ for a in range(1,101):
     elif a % 5 == 0:
         print("Buzz", end=' ')
     else:
-        print(a, end=' ')
+        print("{}".format(a), end=' ')
